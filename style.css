@@ -1,0 +1,46 @@
+#calculator{
+    border:4px solid black;
+    width: fit-content;
+    margin:auto;
+}
+#row1,#row2,#row3,#row4,#row5{
+    font-size: 0;
+}
+button{
+    height:75px;
+    width:100px;
+    margin:0px;
+    border:4px solid black;
+    border-radius: 0;
+    font-size: 20px;
+    
+}
+#display{
+    display:flex;
+    justify-content: end;
+    align-items: end;
+    height:75px;
+    width:400px;
+    font-size: 50px;
+}
+#AC{
+    width:200px;
+}
+#zero{
+    width:200px;
+}
+div{
+    border:4px solid black;
+}
+.number{
+    background-color: green;
+}
+.operator{
+    background-color: tomato;
+}
+#result,#AC{
+    background-color: aqua;
+}
+#decimal{
+    background-color: tomato;
+}
